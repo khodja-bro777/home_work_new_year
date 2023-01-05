@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+header {
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21212159;
+    padding: 34px 165px;
+    border-bottom: gray solid 1px;
+
+    img {
+      width: 25px;
+      height: 24px;
+    }
+    ul {
+      display: flex;
+      color: #fff;
+      list-style: none;
+      gap: 36px;
+      span {
+        color: #34c759;
+      }
+    }
+  }
+}
+.container{
+   width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
